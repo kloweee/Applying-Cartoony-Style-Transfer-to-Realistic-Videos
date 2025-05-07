@@ -6,7 +6,6 @@ import numpy as np
 from torch.utils.data import Dataset
 
 # CartoonRealDataset
-# cartoon == zebra, real == horse
 class CartoonRealDataset(Dataset):
     def __init__(self, root_cartoon, root_real, root_blurry, transform=None):
         self.root_cartoon = root_cartoon
